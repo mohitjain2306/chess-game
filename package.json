@@ -1,0 +1,25 @@
+{
+  "name": "chess-game-checkmate",
+  "version": "1.0.0",
+  "description": "Real-time multiplayer chess game with bot support",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "chess.js": "^1.0.0-beta.6",
+    "@anthropic-ai/sdk": "^0.27.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["chess", "game", "multiplayer", "socket.io", "express", "claude", "ai"],
+  "author": "Mohit Jain",
+  "license": "MIT"
+}
